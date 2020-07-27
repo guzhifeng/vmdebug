@@ -1,5 +1,5 @@
 #! /bin/bash
 
-echo [$(date +"%F-%T.%N")] [$(whoami)] tc $@ >> /tmp/tc.log
+echo [$(date +"%F-%T.%N")] [$(whoami)] tc $@ >> /tmp/debug.log
 
 /opt/tc $@

@@ -1,0 +1,5 @@
+#! /bin/bash
+
+echo [$(date +"%F-%T.%N")] [$(whoami)] ovs-vsctl $@ >> /tmp/debug.log
+
+/opt/ovs-vsctl $@
