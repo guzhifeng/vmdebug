@@ -1,4 +1,4 @@
-# 用来debug虚机热迁移后tc规则丢失的工具
+# Here are  some tool commands for reference.
 
 Here are  some tool commands for reference.
 
